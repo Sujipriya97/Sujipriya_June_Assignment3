@@ -1,0 +1,90 @@
+<!doctype>
+<html>
+    <head>
+        <title>FORM</title>
+        </head>
+    <body>
+        <form>
+        <h1 style="background-color:lightseagreen;"><center>REGISTRATION FORM</center></h1>
+        <table border="1" align="center" bgcolor="lightgrey" width="500" height="500">
+            <tr>
+                <th>ENTER YOUR FIRST NAME :</th>
+                <td><input type="text" name="fname" id="fname" placeholder="First Name" required></td>
+            </tr>
+            <tr>
+                <th>ENTER YOUR LAST NAME :</th>
+                <td><input type="text" name="lname" id="lname" placeholder="Last Name" required></td>
+            </tr>
+            <tr>
+                <th>DATE OF BIRTH :</th>
+                <td><input type="date" name="bdate" id="bdate" min="06/01/1990" max="06/01/2022" required></td>
+            <tr>
+                <th>E-MAIL ADDRESS :</th>
+                <td><input type="email" name="mail" id="mail" required></td>
+            </tr>
+            <tr>
+                <th>CONTACT NUMBER :</th>
+                <td><input type="number" name="num" id="num" placeholder="91-9988776655" required></td>
+            </tr>
+            <tr>
+                <th>GENDER :</th>
+                <td><input type="radio" name="gender" id="gender">MALE<input type="radio" name="gender" id="gender">FEMALE</td>
+            </tr>
+            <tr>
+                <th>ADDRESS :</th>
+                <td><textarea rows="8" cols="20"></textarea></td>
+            </tr>
+            <tr>
+                <th>NATIONALITY</th>
+                <td><select>
+                    <option value="1">INDIA</option>
+                    <option value="2">AMERICA</option>
+                    <option value="3">CANADA</option>
+                    </select></td>
+                    </tr>
+            <tr>
+                <th>QUALIFICATION :</th>
+                <td><select>
+                    <option value="BE">B.E</option>
+                    <option value="BCA">BCA</option>
+                    <option value="BSc">BSc</option>
+                    </select></td>
+                    </tr>
+                    
+
+            <tr>
+                <th>SPECIALISATION :</th>
+                <td><select>
+                        <optgroup label="B.E">
+                        <option value="ECE">ECE</option>
+                        <option value="EEE">EEE</option>
+                        <option value="CSE">CSE</option></optgroup>
+
+                    <optgroup label="BCA">
+                    <option value="Physics">Physics</option>
+                    <option value="Chemistry">Chemistry</option>
+                    <option value="Maths">Maths</option></optgroup>
+                    <optgroup label="BSc">
+                    <option value="Agriculture">Agriculture</option>
+                    <option value="English">English</option>
+                    <option value="Science">Science</option></optgroup>
+                    
+                </select></td>
+                </tr>
+            <tr>
+                <th>UPLOAD YOUR PHOTO :</th>
+                <td><input type="file"></td>
+                </tr>
+            <tr>
+                <th>UPLOAD YOUR DOCUMENTS :</th>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <th colspan="2"><input type="submit" value="SUBMIT">&nbsp &nbsp; &nbsp;<input type="reset" value="CANCEL">
+                     
+                    
+
+        </table>
+    </form>
+</body>
+</html>
